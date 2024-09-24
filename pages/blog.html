@@ -26,37 +26,52 @@
     </header>
 </section>
 
-<div class="container">
-    <section class="blog-header">
-        <h1>Наш Блог</h1>
-        <p>Останні новини, поради та цікаві історії від нашої команди.</p>
-    </section>
+ <div class="container">
+        <section class="blog-header">
+            <h1>Наш Блог</h1>
+            <p>Останні новини, поради та цікаві історії від нашої команди.</p>
+        </section>
 
-    <section class="blog-grid">
-        <article class="blog-post">
-            <img src="../assets/images/blog/plintka.jfif" alt="Blog Post 1">
-            <div class="post-content">
-                <h2>Як вибрати керамічну плитку для вашого інтер'єру</h2>
-                <p>Керамічна плитка — це не тільки функціональний матеріал для стін і підлоги, але й важливий елемент дизайну. У цій статті ми розглянемо основні фактори, які варто врахувати при виборі плитки для вашого дому.
-                </p>
-                <a href="post1.html" class="read-more">Читати більше</a>
-            </div>
-        </article>
+        <section class="blog-grid">
+            <article class="blog-post">
+                <img src="../assets/images/blog/plintka.jfif" alt="Blog Post 1">
+                <div class="post-content">
+                    <h2>Як вибрати керамічну плитку для вашого інтер'єру</h2>
+                    <p>Керамічна плитка — це не тільки функціональний матеріал для стін і підлоги, але й важливий елемент дизайну.</p>
+                    <a href="#" class="read-more" id="openModalBtn1">Читати більше</a>
+                    
+                    <!-- Первое модальное окно -->
+                    <div id="myModal1" class="modal">
+                        <div class="modal-content">
+                            <span class="close" id="closeModalBtn1">&times;</span>
+                            <h2>Перша стаття</h2>
+                            <img src="assets/images/post1-image.jpg" alt="Зображення статті 1" class="modal-image">
+                            <p>Текст першої статті. Це приклад тексту першої статті.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
 
-        <article class="blog-post">
-            <img src="../assets/images/blog/sulikat.jfif" alt="Blog Post 2">
-            <div class="post-content">
-                <h2>Переваги використання силікатної цегли в будівництві</h2>
-                <p>Силікатна цегла стає все більш популярною серед будівельників завдяки її міцності і екологічним властивостям. У цій статті ми розповімо, чому цей матеріал є ідеальним вибором для сучасного будівництва.</p>
-                <a href="post2.html" class="read-more">Читати більше</a>
-            </div>
-        </article>
+            <article class="blog-post">
+                <img src="../assets/images/blog/sulikat.jfif" alt="Blog Post 2">
+                <div class="post-content">
+                    <h2>Переваги використання силікатної цегли в будівництві</h2>
+                    <p>Силікатна цегла стає все більш популярною серед будівельників завдяки її міцності і екологічним властивостям.</p>
+                    <a href="#" class="read-more" id="openModalBtn2">Читати більше</a>
 
-    </section>
-</div>
-
-
-
+                    <!-- Второе модальное окно -->
+                    <div id="myModal2" class="modal">
+                        <div class="modal-content">
+                            <span class="close" id="closeModalBtn2">&times;</span>
+                            <h2>Друга стаття</h2>
+                            <img src="assets/images/post2-image.jpg" alt="Зображення статті 2" class="modal-image">
+                            <p>Текст другої статті. Це приклад тексту другої статті.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </div>
 
 <div id="contactButton" class="contact-circle">
     <img src="../assets/images/telefon/telefon.png" alt="Контакты">
@@ -119,5 +134,7 @@
     <a href="#">Instagram</a>
 </div>
 </footer>
+<script src="../js/kalkul.js"></script>
+<script src="../js/blog.js"></script>
 </body>
 </html>

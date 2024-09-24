@@ -119,3 +119,62 @@
 .contact-info li {
     margin-bottom: 10px;
 }
+.certificates-section {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333;
+}
+
+.certificate-grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.certificate-item {
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 400px;
+    flex: 1;
+}
+
+.img-container {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.img-container:hover {
+    transform: scale(1.05);
+}
+
+.certificate-img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.certificate-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.certificate-description {
+    font-size: 16px;
+    font-size: 26px;
+    font-weight:500;
+    color: #000000;
+    margin-top: 10px;
+}

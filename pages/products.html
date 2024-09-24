@@ -34,15 +34,16 @@
                     <li><a href="#" data-category="all" class="active">Все</a></li>
                     <li><a href="#" data-category="bricks">Цегли</a></li>
                     <li><a href="#" data-category="tiles">Плитка</a></li>
+                    <li><a href="#" data-category="materials">Додаткові матеріали</a></li>
                 </ul>
             </div>
 
             <div class="product-grid">
         
                 <div class="product-item" data-category="bricks">
-                    <img src="../assets/images/products/wit.bmp" alt="Керамічна цегла" class="product-image">
-                    <h3>Керамічна цегла</h3>
-                    <p>Опис товару. Високоякісна керамічна цегла для різних будівельних потреб</p>
+                    <img src="../assets/images/products/wit_red.JPG" alt="Керамічна цегла" class="product-image">
+                    <h3>Бетонна цегла</h3>
+                    <p>Опис товару. Високоякісна бетонна цегла для різних будівельних потреб</p>
                     <div class="product-details">
                         <p><strong>Характеристики:</strong></p>
                         <ul>
@@ -54,7 +55,17 @@
                     <div class="color-options">
                         <button class="color-btn" data-color="red" style="background-color: red;"></button>
                         <button class="color-btn" data-color="yellow" style="background-color: yellow;"></button>
+                        <button class="color-btn" data-color="white" style="background-color: white; border: 1px solid #ccc;"></button>
+                        <button class="color-btn" data-color="black" style="background-color: black;"></button>
+                        <button class="color-btn" data-color="gray" style="background-color: gray;"></button>
+                        <button class="color-btn" data-color="blue" style="background-color: blue;"></button>
+                    <button class="color-btn" data-color="green" style="background-color: green;"></button>
+                    <button class="color-btn" data-color="pink" style="background-color: pink;"></button>
+                    <button class="color-btn" data-color="orange" style="background-color: orange;"></button>
+                    
                     </div>
+                    
+                    
                     <a href="product-details.html" class="btn">Замовлення</a>
                 </div>
          
@@ -92,11 +103,24 @@
                     <a href="product-details.html" class="btn">Замовлення</a>
                 </div>
            
+                <div class="product-item" data-category="materials">
+                    <img src="../assets/images/products/4ement.webp" alt="Додаткові матеріали" class="product-image">
+                    <h3>Бетон</h3>
+                    <p>Опис товару. Високоякісні матеріали для різних будівельних потреб.</p>
+                    <div class="product-details">
+                        <p><strong>Характеристики:</strong></p>
+                        <ul>
+                            <li>Матеріал: різноманітні</li>
+                            <li>Колір: різні</li>
+                            <li>Використання: для різних будівельних робіт</li>
+                        </ul>
+                    </div>
+                    <a href="product-details.html" class="btn">Замовлення</a>
+                </div>
+
             </div>
         </div>
-    </section>
-    
-    
+    </section>  
 </section>
 <div id="contactButton" class="contact-circle">
     <img src="../assets/images/telefon/telefon.png" alt="Контакты">
@@ -113,13 +137,14 @@
         <p><strong>Telegram:</strong> <a href="https://t.me/company" target="_blank">@company</a></p>
     </div>
 </div>
+
 <div id="calculator" class="slide-calculator">
-<div class="calculator-header">
-<h2>Калькулятор</h2>
-<span class="close-calc-btn">&times;</span>
+    <div class="calculator-header">
+    <h2>Калькулятор</h2>
+    <span class="close-calc-btn">&times;</span>
 </div>
-<div class="calculator-ios">
-<input type="text" id="calc-input" disabled>
+    <div class="calculator-ios">
+    <input type="text" id="calc-input" disabled>
 <div class="calc-buttons">
     <button class="calc-btn">C</button>
     <button class="calc-btn">&#8314;&#8725;&#8331;</button>
@@ -161,5 +186,6 @@
 </div>
 </footer>
 <script src="../js/products.js"></script>
+<script src="../js/kalkul.js"></script>
 </body>
 </html>

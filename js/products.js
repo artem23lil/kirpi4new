@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const filterLinks = document.querySelectorAll('.filter a');
     const productItems = document.querySelectorAll('.product-item');
     const colorButtons = document.querySelectorAll('.color-btn');
-    
+
     filterLinks.forEach(link => {
         link.addEventListener('click', function (e) {
             e.preventDefault();
@@ -28,11 +28,10 @@ document.addEventListener('DOMContentLoaded', function () {
             const color = this.getAttribute('data-color');
             const productItem = this.closest('.product-item');
             const image = productItem.querySelector('.product-image');
-            const baseImageUrl = '../assets/images/product/wit.bmp'; 
-            const colorImageUrl = `${baseImageUrl}_${color}.jpg`;
+            const baseImageUrl = '../assets/images/products/wit_'; 
+            const colorImageUrl = `${baseImageUrl}${color}.JPG`; // используем JPG
 
             image.src = colorImageUrl;
         });
     });
 });
-
